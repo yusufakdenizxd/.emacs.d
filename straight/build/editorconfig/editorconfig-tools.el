@@ -1,0 +1,1 @@
+/Users/akdeniz/.emacs.d/straight/repos/editorconfig-emacs/editorconfig-tools.el

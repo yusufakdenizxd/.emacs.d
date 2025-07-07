@@ -1,0 +1,1 @@
+/Users/akdeniz/.emacs.d/straight/repos/evil-collection/evil-collection.el

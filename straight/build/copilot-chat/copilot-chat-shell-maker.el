@@ -1,0 +1,1 @@
+/Users/akdeniz/.emacs.d/straight/repos/copilot-chat.el/copilot-chat-shell-maker.el

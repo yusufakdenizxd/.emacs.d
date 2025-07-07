@@ -1,31 +1,43 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/akdeniz/dev/federal_ateriel/components/preview-3d.tsx"
+(("/Users/akdeniz/dev/benihime/src/main.zig" . 1046)
+ ("/Users/akdeniz/.emacs.d/modules/auto-complete.el" . 1184)
+ ("/Users/akdeniz/.emacs.d/modules/file.el" . 1140)
+ ("/Users/akdeniz/.emacs.d/modules/pdf.el" . 50)
+ ("/Users/akdeniz/.emacs.d/modules/options.el" . 45)
+ ("/Users/akdeniz/.emacs.d/modules/"
+  (dired-filename . "/Users/akdeniz/.emacs.d/modules/lsp.el"))
+ ("/Users/akdeniz/.emacs.d/modules/lsp.el" . 743)
+ ("/Users/akdeniz/dev/benihime/src/layout.zig" . 789)
+ ("/Users/akdeniz/.emacs.d/modules/perspective.el" . 50)
+ ("/Users/akdeniz/.emacs.d/modules/code-runner.el" . 135)
+ ("/Users/akdeniz/.emacs.d/modules/core.el" . 1566)
+ ("/Users/akdeniz/.emacs.d/modules/auto-pair.el" . 1074)
+ ("/Users/akdeniz/.emacs.d/modules/general.el" . 965)
+ ("/Users/akdeniz/.emacs.d/"
+  (dired-filename . "/Users/akdeniz/.emacs.d/modules"))
+ ("/Users/akdeniz/.cargo/git/checkouts/zed-a70e2ad075855582/6319ae0/crates/gpui/src/styled.rs"
+  . 13458)
+ ("/Users/akdeniz/Desktop/"
+  (dired-filename . "/Users/akdeniz/Desktop/berto"))
+ ("/Users/akdeniz/Desktop/berto/"
+  (dired-filename . "/Users/akdeniz/Desktop/berto/a.org"))
+ ("/Users/akdeniz/dev/jrip/src/main.rs" . 345)
+ ("/Users/akdeniz/" (dired-filename . "/Users/akdeniz/.emacs.d"))
+ ("/Users/akdeniz/dev/federal_ateriel/components/preview-3d.tsx"
   . 3091)
- ("/Users/akdeniz/dev/lazyfocus/src/main.rs" . 741)
- ("/Users/akdeniz/dev/lazyfocus/src/todo/mod.rs" . 15)
- ("/Users/akdeniz/dev/lazyfocus/src/ui.rs" . 933)
  ("/Users/akdeniz/dev/pokemon-dimensions/src/pokemon/Pokemon.ts" . 653)
  ("/Users/akdeniz/dev/federal_ateriel/app/customize/PreviewDesignStepper.tsx"
   . 3643)
- ("/Users/akdeniz/.emacs.d/"
-  (dired-filename . "/Users/akdeniz/.emacs.d/modules"))
- ("/Users/akdeniz/.emacs.d/modules/"
-  (dired-filename . "/Users/akdeniz/.emacs.d/modules/auto-complete.el"))
- ("/Users/akdeniz/.emacs.d/modules/auto-complete.el" . 662)
  ("/Users/akdeniz/dev/federal_ateriel/app/customize/ChooseProductStepper.tsx"
   . 33)
  ("/Users/akdeniz/dev/federal_ateriel/lib/utils.ts" . 172)
- ("/Users/akdeniz/" (dired-filename . "/Users/akdeniz/.emacs.d"))
  ("/Users/akdeniz/dev/federal_ateriel/app/about/page.tsx" . 278)
- ("/Users/akdeniz/.emacs.d/modules/lsp.el" . 66)
  ("/Users/akdeniz/dev/federal_test/main.js" . 1307)
  ("/Users/akdeniz/dev/federal_ateriel/app/customize/page.tsx" . 5669)
  ("/Users/akdeniz/dev/federal_ateriel/app/page.tsx" . 400)
  ("/Users/akdeniz/.emacs.d/modules/modeline.el" . 86)
  ("/Users/akdeniz/.emacs.d/modules/terminal.el" . 336)
  ("/Users/akdeniz/.emacs.d/modules/git.el" . 18)
- ("/Users/akdeniz/.emacs.d/modules/general.el" . 1528)
- ("/Users/akdeniz/.emacs.d/modules/options.el" . 1765)
  ("/Users/akdeniz/dev/federal_ateriel/components/"
   (dired-filename
    . "/Users/akdeniz/dev/federal_ateriel/components/client-logos.tsx"))
@@ -47,9 +59,7 @@
   (dired-filename
    . "/Users/akdeniz/dev/federal_ateriel/app/layout.tsx"))
  ("/Users/akdeniz/dev/federal_ateriel/app/layout.tsx" . 363)
- ("/Users/akdeniz/dev/lyvia/src/app/layout.tsx" . 591)
  ("/Users/akdeniz/dev/federal_test/index.html" . 380)
- ("/Users/akdeniz/.emacs.d/modules/perspective.el" . 125)
  ("/Users/akdeniz/dev/store-app/lib/utils.ts" . 103)
  ("/Users/akdeniz/dev/logistics-dashboard/app/dashboard/page.tsx"
   . 2426)
@@ -57,14 +67,12 @@
   (dired-filename . "/Users/akdeniz/.emacs.d/straight/repos"))
  ("/Users/akdeniz/.emacs.d/modules/evil.el" . 1276)
  ("/Users/akdeniz/.emacs.d/modules/project.el" . 461)
- ("/Users/akdeniz/.emacs.d/modules/file.el" . 1140)
  ("/Users/akdeniz/dev/wukong/parser/parser.go" . 10447)
  ("/Users/akdeniz/dev/wukong/"
   (dired-filename . "/Users/akdeniz/dev/wukong/lexer"))
  ("/Users/akdeniz/dev/wukong/lexer/"
   (dired-filename . "/Users/akdeniz/dev/wukong/lexer/lexer.go"))
  ("/Users/akdeniz/dev/wukong/lexer/lexer.go" . 1112)
- ("/Users/akdeniz/.emacs.d/modules/copilot.el" . 281)
  ("/Users/akdeniz/dev/logistics-dashboard/app/dashboard/"
   (dired-filename
    . "/Users/akdeniz/dev/logistics-dashboard/app/dashboard/reports"))
@@ -76,7 +84,6 @@
    . "/Users/akdeniz/dev/logistics-dashboard/app/dashboard/reports/all/page.tsx"))
  ("/Users/akdeniz/dev/logistics-dashboard/app/dashboard/reports/all/page.tsx"
   . 1336)
- ("/Users/akdeniz/.emacs.d/modules/pdf.el" . 46)
  ("/Users/akdeniz/dev/kairo/src/main.rs" . 152)
  ("/Users/akdeniz/.emacs.d/modules/ui.el" . 708)
  ("/Users/akdeniz/.emacs.d/init.el" . 798)
@@ -106,8 +113,6 @@
   (dired-filename . "/Users/akdeniz/dev/kairo/Cargo.toml"))
  ("/Users/akdeniz/dev/kairo/Cargo.toml" . 92)
  ("/Users/akdeniz/dev/kairo/src/canvas.rs" . 634)
- ("/Users/akdeniz/.emacs.d/modules/auto-pair.el" . 1152)
- ("/Users/akdeniz/.emacs.d/modules/code-runner.el" . 764)
  ("/Users/akdeniz/.emacs.d/modules/popper.el" . 297)
  ("/Users/akdeniz/dev/kairo/doc.org" . 471)
  ("/Users/akdeniz/dev/rustlings/exercises/06_move_semantics/move_semantics5.rs"
@@ -189,19 +194,14 @@
   (dired-filename . "/Users/akdeniz/dev/store-app/lib"))
  ("/Users/akdeniz/dev/store-app/app/api/trpc/[trpc]/route.ts" . 269)
  ("/Users/akdeniz/dev/tmux-lazygit/scripts/toggle-window.sh" . 438)
- ("/Users/akdeniz/.emacs.d/modules/core.el" . 1870)
  ("/opt/homebrew/Cellar/emacs-plus@31/31.0.50/share/emacs/31.0.50/etc/COPYING"
   . 30809)
- ("/Users/akdeniz/.emacs.d/modules/org.el" . 999)
  ("/Users/akdeniz/.emacs.d/straight/build/"
   (dired-filename
    . "/Users/akdeniz/.emacs.d/straight/build/ace-window"))
  ("/Users/akdeniz/.emacs.d/straight/repos/"
   (dired-filename
    . "/Users/akdeniz/.emacs.d/straight/repos/ace-window"))
- ("/Users/akdeniz/.emacs.d/dirvish/"
-  (dired-filename . "/Users/akdeniz/.emacs.d/dirvish/thumbnails"))
- ("/Users/akdeniz/.emacs.d/backups/" . 5223)
  ("/Users/akdeniz/.config/"
   (dired-filename . "/Users/akdeniz/.config/yabai"))
  ("/Users/akdeniz/.config/yabai/"
@@ -254,7 +254,6 @@
   . 2415)
  ("/Users/akdeniz/work/"
   (dired-filename . "/Users/akdeniz/work/.DS_Store"))
- ("/Users/akdeniz/dev/lyvia/src/app/(auth)/register/page.tsx" . 1774)
  ("/Users/akdeniz/dev/store-app/app/cart/"
   (dired-filename . "/Users/akdeniz/dev/store-app/app/cart/page.tsx"))
  ("/Users/akdeniz/dev/store-app/hooks/"
@@ -268,7 +267,6 @@
   (dired-filename
    . "/Users/akdeniz/dev/store-app/app/(admin)/admin/page.tsx"))
  ("/Users/akdeniz/dev/store-app/app/(admin)/admin/page.tsx" . 295)
- ("/Users/akdeniz/dev/benihime/src/buffer.zig" . 280)
  ("/Users/akdeniz/dev/Script-Master/cmd/root.go" . 688)
  ("/Users/akdeniz/dev/Script-Master/config/config.go" . 105)
  ("/Users/akdeniz/dev/arcane-royale/src/Player.js" . 1728)
@@ -344,7 +342,6 @@
  ("/Users/akdeniz/dev/pokemon-dimensions/"
   (dired-filename . "/Users/akdeniz/dev/pokemon-dimensions/.git"))
  ("/Users/akdeniz/dev/pokemon-dimensions/src/App.ts" . 113)
- ("/Users/akdeniz/dev/lyvia/src/components/ui/form.tsx" . 710)
  ("/Users/akdeniz/dev/store-app/node_modules/.pnpm/lucide-react@0.454.0_react@19.1.0/node_modules/lucide-react/dist/lucide-react.d.ts"
   . 1809540)
  ("/Users/akdeniz/dev/store-app/node_modules/.pnpm/@types+react@19.1.1/node_modules/@types/react/index.d.ts"
@@ -352,15 +349,6 @@
  ("/Users/akdeniz/dev/store-app/components/cart-fab.tsx" . 1674)
  ("/Users/akdeniz/dev/Script-Master/cmd/config.go" . 688)
  ("/Users/akdeniz/.emacs.d/modules/windows.el" . 131)
- ("/Users/akdeniz/dev/lyvia/README.md" . 758)
- ("/Users/akdeniz/dev/lyvia/"
-  (dired-filename . "/Users/akdeniz/dev/lyvia/next.config.ts"))
- ("/Users/akdeniz/dev/lyvia/next.config.ts" . 106)
- ("/Users/akdeniz/dev/lyvia/src/"
-  (dired-filename . "/Users/akdeniz/dev/lyvia/src/components"))
- ("/Users/akdeniz/dev/lyvia/src/components/"
-  (dired-filename
-   . "/Users/akdeniz/dev/lyvia/src/components/nav-main.tsx"))
  ("/Users/akdeniz/.config/nvim/"
   (dired-filename . "/Users/akdeniz/.config/nvim/lua"))
  ("/Users/akdeniz/.config/nvim/lua/"

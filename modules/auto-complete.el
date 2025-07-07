@@ -35,6 +35,20 @@
 ;; Make M-x, completion-at-point use ivy UI
 (setq completion-in-region-function #'ivy-completion-in-region)
 
+(use-package company
+  :straight t
+  :hook (after-init . global-company-mode)
+  :config
+  (setq company-minimum-prefix-length 1
+        company-idle-delay 0.0)) ;; Show completions immediately
+(with-eval-after-load 'lsp-mode
+  (setq lsp-completion-provider :capf))
+
+(add-hook 'lsp-mode-hook #'company-mode)
+
+(use-package company-box
+  :hook (company-mode . company-box-mode))
+
 
 ;; Cape — enhance capf (elisp, files, symbols, etc.)
 (use-package cape

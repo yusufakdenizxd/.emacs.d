@@ -28,10 +28,8 @@
    "C-e" #'dired-jump
    "C-n" #'find-file
    "s-x" #'my/kill-current-perspective
-   "s-]" #'persp-next
-   "s-[" #'persp-prev
-   "M-[" #'centaur-tabs-backward
-   "M-]" #'centaur-tabs-forward
+   "s-}" #'persp-next
+   "s-{" #'persp-prev
    "C-q" #'image-kill-buffer
    "C-x C-c"#'my/open-config-persp
 

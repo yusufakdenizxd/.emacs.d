@@ -1,0 +1,1 @@
+/Users/akdeniz/.emacs.d/straight/repos/pdf-tools/lisp/pdf-links.el

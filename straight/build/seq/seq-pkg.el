@@ -1,0 +1,1 @@
+/Users/akdeniz/.emacs.d/straight/repos/seq/seq-pkg.el

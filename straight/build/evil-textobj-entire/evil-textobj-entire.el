@@ -1,0 +1,1 @@
+/Users/akdeniz/.emacs.d/straight/repos/evil-textobj-entire/evil-textobj-entire.el

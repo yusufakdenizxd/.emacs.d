@@ -1,0 +1,1 @@
+/Users/akdeniz/.emacs.d/straight/repos/themes/themes/doom-feather-dark-theme.el

@@ -85,6 +85,14 @@
   :config
   (setq rust-format-on-save t))
 
+
+(use-package zig-mode
+  :straight t
+  :mode "\\.zig\\'"
+  :hook (zig-mode . lsp-deferred)
+  :config
+  )
+
 (use-package cargo
   :straight t
   :hook (rust-mode . cargo-minor-mode))
@@ -93,3 +101,6 @@
 (use-package apheleia
   :config
   (apheleia-global-mode +1))
+
+(setq lsp-zig-zls-executable "/opt/homebrew/bin/zls")
+(setq lsp-zig-zig-exe-path "/opt/homebrew/bin/zig")

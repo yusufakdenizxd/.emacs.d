@@ -1,0 +1,1 @@
+/Users/akdeniz/.emacs.d/straight/repos/copilot-chat.el/.dir-locals.el

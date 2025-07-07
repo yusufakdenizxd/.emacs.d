@@ -49,6 +49,6 @@
 ;; Configure straight.el to use use-package
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
-(straight-use-package 'org)
+; (straight-use-package 'org)
 
 ;;; core.el ends here

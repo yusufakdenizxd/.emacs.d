@@ -1,0 +1,1 @@
+/Users/akdeniz/.emacs.d/straight/repos/bind-key/bind-key-pkg.el

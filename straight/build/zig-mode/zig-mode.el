@@ -1,0 +1,1 @@
+/Users/akdeniz/.emacs.d/straight/repos/zig-mode/zig-mode.el
