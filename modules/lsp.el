@@ -3,6 +3,29 @@
   :config
   (require 'vlf-setup))
 
+(use-package treesit-auto
+  :ensure t
+  :config
+  (setq treesit-language-source-alist
+        '((bash "https://github.com/tree-sitter/tree-sitter-bash")
+          (cmake "https://github.com/uyha/tree-sitter-cmake")
+          (css "https://github.com/tree-sitter/tree-sitter-css")
+          (elisp "https://github.com/Wilfred/tree-sitter-elisp")
+          (go "https://github.com/tree-sitter/tree-sitter-go")
+          (zig "https://github.com/maxxnino/tree-sitter-zig")
+          (html "https://github.com/tree-sitter/tree-sitter-html")
+          (javascript "https://github.com/tree-sitter/tree-sitter-javascript" "master" "src")
+          (json "https://github.com/tree-sitter/tree-sitter-json")
+          (make "https://github.com/alemuller/tree-sitter-make")
+          (markdown "https://github.com/ikatyang/tree-sitter-markdown")
+          (python "https://github.com/tree-sitter/tree-sitter-python")
+          (toml "https://github.com/tree-sitter/tree-sitter-toml")
+          (tsx "https://github.com/tree-sitter/tree-sitter-typescript" "master" "tsx/src")
+          (typescript "https://github.com/tree-sitter/tree-sitter-typescript" "master" "typescript/src")
+          (yaml "https://github.com/ikatyang/tree-sitter-yaml")))
+  (setq treesit-auto-install 'prompt)
+  (global-treesit-auto-mode))
+
 (use-package lsp-mode
   :straight t
   :commands (lsp lsp-deferred)
@@ -20,18 +43,24 @@
         lsp-file-watch-threshold 10000
         lsp-headerline-breadcrumb-enable nil
         lsp-idle-delay 0.5
+        lsp-eldoc-enable-hover nil
+        lsp-signature-auto-activate nil 
+
+        lsp-eldoc-enable-hover nil
+        lsp-signature-auto-activate nil
         lsp-file-watch-ignored '("[/\\]node_modules/" "[/\\].git/" "[/\\]vendor/" "[/\\]large-files/")
         lsp-pyright-typechecking-mode "basic"  ;; Change this to "off" or "strict" if needed
         lsp-clients-python-library-directories '("/usr/" "/usr/local/" "~/.pyenv/")))
 
-(with-eval-after-load 'lsp-mode
-  (setq lsp-eldoc-enable-hover nil))
+
 
 (use-package lsp-ui
   :after lsp-mode
   :commands lsp-ui-mode
   :init (setq lsp-ui-doc-enable t
               lsp-ui-doc-show-with-cursor t
+              lsp-eldoc-enable-hover nil
+              lsp-signature-auto-activate nil 
               lsp-ui-sideline-enable t))
 
 (use-package typescript-mode
